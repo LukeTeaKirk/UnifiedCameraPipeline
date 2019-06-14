@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android Camera API 2</string>
+    <string name="take_picture">Take picture</string>
+    <string-array name="select_array">
+        <item>Fast</item>
+        <item>Accurate</item>
+    </string-array>
+    <string name="title_activity_output">Info</string>
+    <string name="title_activity_screenshot">Screenshot</string>
+    <string name="accessibility_service_description">desc</string>
+</resources>
