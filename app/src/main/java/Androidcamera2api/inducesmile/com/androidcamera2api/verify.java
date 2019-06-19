@@ -6,14 +6,12 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.provider.OpenableColumns;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 import static Androidcamera2api.inducesmile.com.androidcamera2api.AndroidCamera2API.verifyPath;
 
@@ -43,7 +41,7 @@ public class verify extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-                    intent.setType("file/*");
+                    intent.setType("image/*");
                     startActivityForResult(intent, PICKFILE_REQUEST_CODE);
 
 
@@ -95,9 +93,9 @@ public class verify extends AppCompatActivity {
         return result;
     }
     @Override
-    protected void onActivityResult(int request, int result, Intent data){
+    protected void onActivityResult(int request, int result, Intent data) {
+        super.onActivityResult(request, result, data);
         setFields(data);
-
 
 
     }
