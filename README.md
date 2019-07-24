@@ -1,7 +1,7 @@
 # UnifiedCameraTimestamp
 This application acts as a proof of concept to prevent the widespread issue of Mob Lynchings in India. Utilizing state-of-the-art obfuscution and SafetyNet Api(s), this acts as a unified service to upload and verify the genuine nature of a picture taken - with anti tamper measures present in each stage.
 This application is secured through usage of WideVine's L1 security chip and decryption algorithm, preventing memory leaks and root bypass.
-This application checks for root access, and upon detection deletes the critical parts of the application.
+This application checks for root access, and upon detection disables the critical boot parts of the application.
 This application is host to 4 components.
 1.  The in-app camera viewfinder based on the android Camera2 API;
 2.  A propietary algoritm to output a uuid for the picture, along with a checksum;
