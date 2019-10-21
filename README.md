@@ -8,7 +8,7 @@ This application is host to 4 components.
 3.  Uploads said data packet to a secure server free of cost, with no ability to produce the original picture;
 4.  Pulls online data packet to crossreference the validity of a recieved photo and verifies the status.;
 
-User Side Interaction Timeline:
+User Side Timeline:
 1. User clicks picture from app;
 2. Uploads picture uuid and a proprietary checksum (based on the color of individual blocks of the bitmap) from the Output activity;
 3. Copies reference id (+ link) for purpose of sharing with other people(2nd party), along with original image.;
