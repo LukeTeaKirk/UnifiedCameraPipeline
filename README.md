@@ -11,7 +11,7 @@ This application is host to 4 components.
 User Side Timeline:
 1. User clicks picture from app;
 2. Uploads picture uuid and a proprietary checksum (based on the color of individual blocks of the bitmap) from the Output activity;
-3. Copies reference id (+ link) for purpose of sharing with other people(2nd party), along with original image.;
+3. Copies reference id (+ link) for purpose of sharing with other people(2nd party), along with original image;
 4. 2nd party downloads app from link, pastes reference id in the Verify Activity;
 5. Based on status of photo genuinity, commits or chooses not to commit certain illegal actions;
 6. Profit;
